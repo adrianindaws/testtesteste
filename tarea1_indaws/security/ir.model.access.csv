@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tarea1_indaws_tarea1_indaws,tarea1_indaws.tarea1_indaws,model_tarea1_indaws_tarea1_indaws,base.group_user,1,1,1,1

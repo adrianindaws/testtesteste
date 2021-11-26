@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="tarea1_indaws.inherit">
+      <field name="name">tarea1_indaws</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref = "base.view_partner_form" />
+      <field name="arch" type="xml">
+            <notebook position = "inside">
+               <page string = "Datos_proyecto" name = "Datos_proyecto"> 
+                   <group>
+                       <field name = "user_senior_id"/>
+                       <field name = "user_junior_id"/>
+                       <field name = "user_tikcets_id"/>
+                   </group>        
+               </page>
+            </notebook>
+      </field>
+    </record>
+    
+</odoo>
